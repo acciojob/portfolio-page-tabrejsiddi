@@ -1,2 +1,48 @@
 
 /* Your CSS Code here. */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 700px;
+  margin: 40px auto;
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.profile-img {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.linkedin {
+  display: inline-block;
+  margin: 10px 0 20px;
+  text-decoration: none;
+  color: #0a66c2;
+  font-weight: bold;
+}
+
+.linkedin:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin-top: 25px;
+  text-align: left;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+ul {
+  padding-left: 20px;
+}
